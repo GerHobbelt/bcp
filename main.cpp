@@ -54,7 +54,7 @@ bool filesystem_name_check( const std::string & )
    return true;
 }
 
-int cpp_main(int argc, char* argv[])
+int cpp_main(int argc, const char** argv)
 {
    //
    // Before anything else replace Boost.filesystem's file
